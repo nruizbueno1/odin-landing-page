@@ -3,13 +3,13 @@ body {
     margin: 0;
 }
 
-a:link {
-   color: white;
-   text-decoration: none white;
+a {
+   text-decoration: none;
+   color: aliceblue;
 }
 
 a:hover {
-    color: white;
+    color: #C8A2C8;
 }
 
 a:visited {
@@ -25,6 +25,7 @@ a:visited {
     background-color: #1f2937;
     max-height: 20px;
     border-radius: 10px;
+    position: sticky; top:0;
 }
 
 .header-links {
@@ -65,6 +66,55 @@ img[src*="nrb_logo_happy_peace.png"] {
 }
 
 .button {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    white-space: nowrap;
     background-color: #3882f6;
+    display: flex;
+    font-size: large;
+    padding: 10px;
+    height: auto;
+    max-width: 90px;
+    border-radius: 10px;
+}
+
+h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-top: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.img-with-text{
+    padding-left: 30px;
+    
+}
+
+.container1 img {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-radius: 16px;
+    background-color: none;
+    max-width: 150px;
+    height: 150px;
+    border: 1px solid blue;
+}
+
+.img-with-text p {
+    display: flex;
+    justify-content: center;
+    
     
 }
