@@ -85,6 +85,7 @@ h2 {
     align-items: center;
     justify-content: center;
     margin: 10px;
+    padding-top: 60px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container1 {
@@ -93,12 +94,12 @@ h2 {
     flex-wrap: wrap;
     align-items: center;
     padding-top: 30px;
+    padding-bottom: 80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .img-with-text{
     padding-left: 30px;
-    
 }
 
 .container1 img {
@@ -114,7 +115,56 @@ h2 {
 
 .img-with-text p {
     display: flex;
+    justify-content: center; 
+}
+
+.container2  {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
-    
-    
+    padding: 100px;
+    text-align: center;
+    background-color: lightcoral;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container2 b {
+    text-align: right;
+    padding-top: 10px;
+}
+
+.container3 {
+    background-color: darkcyan;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 80px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.container3text {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+    line-height: 0px;
+    padding: 20px;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em;
+    background-color: #1f2937;
+    max-height: 20px;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer p {
+    color: white;
+    align-self: center;
 }
